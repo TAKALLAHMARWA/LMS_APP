@@ -6,8 +6,7 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class UserDTO {
-    private String username;
-    private Role role;
+public class StudentDTO extends UserDTO{
+    private Long id;
 }
 
