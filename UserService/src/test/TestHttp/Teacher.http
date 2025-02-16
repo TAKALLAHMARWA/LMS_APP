@@ -1,0 +1,16 @@
+GET http://localhost:8085/api/teachers/Salam
+
+###
+POST http://localhost:8085/api/teachers
+Content-Type: application/json
+
+{
+  "username": "Salam",
+  "role": "TEACHER"
+}
+
+###
+GET http://localhost:8085/api/teachers
+
+###
+DELETE http://localhost:8085/api/teachers/3
