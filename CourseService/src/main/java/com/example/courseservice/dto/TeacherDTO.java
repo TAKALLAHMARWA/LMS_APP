@@ -1,12 +1,11 @@
-package com.example.userservice.dto;
+package com.example.courseservice.dto;
 
-import com.example.userservice.dao.Entity.Role;
 import lombok.Getter;
 import lombok.Setter;
 
 @Setter
 @Getter
-public class UserDTO {
+public class TeacherDTO{
     private Long id;
     private String username;
     private Role role;
