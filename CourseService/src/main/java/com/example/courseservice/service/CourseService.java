@@ -31,7 +31,7 @@ public class CourseService {
     private static final String UPLOAD_DIR = "uploads/courses/";
     private static final String COURSE_NOT_FOUND_ERROR = "Course not found with id: ";
 
-    public CourseDTO createCourse(String title, String description, MultipartFile file) throws IOException {
+    public CourseDTO createCoursePDF(String title, String description, MultipartFile file) throws IOException {
         String pdfUrl = savePdfFile(file);
 
         CourseEntity course = new CourseEntity();
