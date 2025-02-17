@@ -5,7 +5,7 @@ POST http://localhost:8085/api/teachers
 Content-Type: application/json
 
 {
-  "username": "Salam",
+  "username": "merve",
   "role": "TEACHER"
 }
 
