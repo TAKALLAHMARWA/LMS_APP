@@ -1,0 +1,15 @@
+GET http://localhost:8087/api/assignments/1
+
+###
+GET http://localhost:8087/api/assignments
+###
+
+POST http://localhost:8087/api/assignments
+Content-Type: application/json
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "marwa"
+}
