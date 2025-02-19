@@ -41,7 +41,7 @@ public class AssignmentService {
 
     // Récupérer un devoir par ID
     public Assignment getAssignmentById(Long assignmentId) {
-        return assignmentRepository.findById(assignmentId)
+        return assignmentRdeepository.findById(assignmentId)
                 .orElseThrow(() -> new ResourceNotFoundException(ASSIGNMENT_NOT_FOUND + assignmentId));
     }
 
