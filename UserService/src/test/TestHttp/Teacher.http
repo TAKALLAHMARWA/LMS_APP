@@ -1,11 +1,11 @@
-GET http://localhost:8085/api/teachers/Salam
+GET http://localhost:8085/api/teachers/merve
 
 ###
 POST http://localhost:8085/api/teachers
 Content-Type: application/json
 
 {
-  "username": "merve",
+  "username": "marwa",
   "role": "TEACHER"
 }
 

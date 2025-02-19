@@ -23,12 +23,12 @@ public class AssignmentService {
 
 
     public Assignment createAssignment(Assignment assignmentEntity)throws IOException {
-        TeacherDTO teacher = teacherClient.getTeacherById(assignmentEntity.getTeacherId());
+        TeacherDTO teacher = teacherClient.getTeacherById(assignmentEntity.getTeacherName());
         if (teacher == null) {
-            throw new ResourceNotFoundException("Teacher not found with id: " + assignmentEntity.getTeacherId());
+            throw new ResourceNotFoundException("Teacher not found with id: " + assignmentEntity.getTeacherName());
         }
 
-        assignmentEntity.setTeacherId(assignmentEntity.getTeacherId());
+        assignmentEntity.setTeacherName(assignmentEntity.getTeacherName());
         assignmentEntity.setCreatedAt(LocalDateTime.now());
 
         return assignmentRepository.save(assignmentEntity);
@@ -41,7 +41,7 @@ public class AssignmentService {
 
     // Récupérer un devoir par ID
     public Assignment getAssignmentById(Long assignmentId) {
-        return assignmentRdeepository.findById(assignmentId)
+        return assignmentRepository.findById(assignmentId)
                 .orElseThrow(() -> new ResourceNotFoundException(ASSIGNMENT_NOT_FOUND + assignmentId));
     }
 

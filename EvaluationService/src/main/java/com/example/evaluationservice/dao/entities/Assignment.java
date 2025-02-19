@@ -20,7 +20,7 @@ public class Assignment {
     private LocalDateTime dueDate;
 
     @Column(name = "teacher_id", nullable = false)
-    private String teacherId;
+    private String teacherName;
 
 
     @Column(nullable = false, updatable = false)
