@@ -1,15 +1,194 @@
-GET http://localhost:8087/api/assignments/1
+GET http://localhost:8080/api/assignments/1
 
 ###
-GET http://localhost:8087/api/assignments
+GET http://localhost:8080/api/assignments
 ###
 
-POST http://localhost:8087/api/assignments
+POST http://localhost:8080/api/assignments
 Content-Type: application/json
 
 {
   "title": "Math Homework",
   "description": "Complete exercises 1 to 10 from Chapter 5",
   "dueDate": "2025-02-20T23:59:59",
-  "teacherId": "marwa"
+  "teacherId": "prof1"
 }
+
+
+###
+POST http://localhost:8080/api/assignments/batch
+Content-Type: application/json
+
+[
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof2"
+  },  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+}
+]

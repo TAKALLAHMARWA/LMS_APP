@@ -24,4 +24,5 @@ public class CourseEntity {
 
     @Column(name = "teacher_id", nullable = false)
     private String teacherId;  // Instead of @ManyToOne
+    private String teacherInstanceName;
 }

@@ -1,5 +1,5 @@
 package com.example.evaluationservice.service;
-import com.example.evaluationservice.FeignClient.TeacherClient;
+import com.example.evaluationservice.FeignClient.UserClient;
 import com.example.evaluationservice.dao.entities.Assignment;
 import com.example.evaluationservice.dao.repositories.AssignmentRepository;
 import com.example.evaluationservice.dto.TeacherDTO;
@@ -14,9 +14,9 @@ import java.util.List;
 public class AssignmentService {
 
     private final AssignmentRepository assignmentRepository;
-    private final TeacherClient teacherClient;
+    private final UserClient teacherClient;
     private static final String ASSIGNMENT_NOT_FOUND = "Assignment not found with id: ";
-    public AssignmentService(AssignmentRepository assignmentRepository, TeacherClient teacherClient) {
+    public AssignmentService(AssignmentRepository assignmentRepository, UserClient teacherClient) {
         this.assignmentRepository = assignmentRepository;
         this.teacherClient = teacherClient;
     }
@@ -27,6 +27,7 @@ public class AssignmentService {
         if (teacher == null) {
             throw new ResourceNotFoundException("Teacher not found with id: " + assignmentEntity.getTeacherId());
         }
+        assignmentEntity.setTeacherInstanceName(teacher.getTeacherInstanceName());
 
         assignmentEntity.setTeacherId(assignmentEntity.getTeacherId());
         assignmentEntity.setCreatedAt(LocalDateTime.now());

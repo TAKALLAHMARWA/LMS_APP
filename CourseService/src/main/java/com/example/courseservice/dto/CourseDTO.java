@@ -12,6 +12,7 @@ public class CourseDTO {
     private String pdfUrl;
     private LocalDateTime publishedAt;
     private String teacherId;
+    private String teacherInstanceName;
 }
 
 

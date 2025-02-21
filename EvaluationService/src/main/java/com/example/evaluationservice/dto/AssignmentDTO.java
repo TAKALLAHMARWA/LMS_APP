@@ -12,4 +12,6 @@ public class AssignmentDTO {
     private String description;
     private LocalDateTime dueDate;
     private String teacherId;
+    private String teacherInstanceName;
+
 }

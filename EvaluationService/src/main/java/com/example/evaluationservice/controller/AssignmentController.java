@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -34,6 +35,21 @@ public class  AssignmentController {
     public AssignmentDTO create(@RequestBody AssignmentDTO assignmentDTO) throws IOException {
         Assignment assignmentEntity= assignmentMapper.toEntity(assignmentDTO);
         return assignmentMapper.toDto(assignmentservice.createAssignment(assignmentEntity));
+    }
+    @PostMapping("/batch")
+    public List<AssignmentDTO> createAll(@RequestBody List<AssignmentDTO> assignmentDTOS) {
+        return assignmentDTOS.stream().map(assignmentDTO -> {
+                    try {
+                        Assignment assignmentEntity= assignmentMapper.toEntity(assignmentDTO);
+                        return assignmentMapper.toDto(assignmentservice.createAssignment(assignmentEntity));
+                    } catch (Exception e) {
+                        // Log the exception (optional)
+                        System.err.println("Error processing assignment: " + assignmentDTO.getTitle() + " - " + e.getMessage());
+                        return null; // or handle differently, like returning a specific error DTO
+                    }
+                })
+                .filter(Objects::nonNull) // Filter out any nulls (in case of exceptions)
+                .collect(Collectors.toList());
     }
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Long id) {
