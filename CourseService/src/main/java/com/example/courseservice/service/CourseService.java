@@ -69,6 +69,7 @@ public class CourseService {
          * we're using the synchrone communication using a REST API
          */
         TeacherDTO teacher = teacherClient.getTeacherById(String.valueOf(courseEntity.getTeacherId()));
+        courseEntity.setTeacherInstanceName(teacher.getInstanceName());
         /**
          * End Communication
          */

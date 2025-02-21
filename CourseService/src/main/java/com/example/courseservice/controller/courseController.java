@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/courses")
@@ -26,6 +28,20 @@ public class courseController {
     public CourseDTO createCourse(@RequestBody CourseDTO courseDTO)
     {
         return courseMapper.toDTO(courseService.createCourse(courseMapper.toEntity(courseDTO)));
+    }
+    @PostMapping("/batch")
+    public List<CourseDTO> createAll(@RequestBody List<CourseDTO> courseDTOS) {
+        return courseDTOS.stream().map(courseDTO -> {
+                    try {
+                        return courseMapper.toDTO(courseService.createCourse(courseMapper.toEntity(courseDTO)));
+                    } catch (Exception e) {
+                        // Log the exception (optional)
+                        System.err.println("Error processing course: " + courseDTO.getTitle() + " - " + e.getMessage());
+                        return null; // or handle differently, like returning a specific error DTO
+                    }
+                })
+                .filter(Objects::nonNull) // Filter out any nulls (in case of exceptions)
+                .collect(Collectors.toList());
     }
 
     // Endpoint pour récupérer un cours par son ID

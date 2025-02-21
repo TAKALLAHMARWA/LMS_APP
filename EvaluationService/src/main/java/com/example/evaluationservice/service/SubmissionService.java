@@ -1,6 +1,6 @@
 package com.example.evaluationservice.service;
 
-import com.example.evaluationservice.FeignClient.StudentClient;
+import com.example.evaluationservice.FeignClient.UserClient;
 import com.example.evaluationservice.dao.entities.Assignment;
 import com.example.evaluationservice.dao.entities.Submission;
 import com.example.evaluationservice.dao.repositories.SubmissionRepository;
@@ -20,12 +20,12 @@ import java.util.List;
 public class SubmissionService {
 
     private final SubmissionRepository submissionRepository;
-    private final StudentClient studentClient;
+    private final UserClient studentClient;
 
     private static final String UPLOAD_DIR = "uploads/submissions/";
     private static final String SUBMISSION_NOT_FOUND = "Submission not found with id: ";
 
-    public SubmissionService(SubmissionRepository submissionRepository, StudentClient studentClient) {
+    public SubmissionService(SubmissionRepository submissionRepository, UserClient studentClient) {
         this.submissionRepository = submissionRepository;
         this.studentClient = studentClient;
     }
