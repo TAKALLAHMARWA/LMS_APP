@@ -1,0 +1,1714 @@
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1hcndhIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNTE2MjM5MDIyfQ.PqoNgW7LsuFZTNgEU1Af5eUMC6z3wKzYc07buCr2CMY
+Content-Length: 239
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+<> 2025-02-21T232029.200.json
+
+###
+
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1hcndhIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNTE2MjM5MDIyfQ.PqoNgW7LsuFZTNgEU1Af5eUMC6z3wKzYc07buCr2CMY
+Content-Length: 239
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+<> 2025-02-21T231708.200.json
+
+###
+
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+Content-Length: 239
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+<> 2025-02-21T231307.200.json
+
+###
+
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+Content-Length: 239
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+<> 2025-02-21T231259.200.json
+
+###
+
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Content-Length: 237
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+###
+
+POST http://localhost:8080/api/assignments/batch
+Content-Type: application/json
+Content-Length: 5063
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof2"
+  },  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+}
+]
+
+<> 2025-02-21T230417.200.json
+
+###
+
+POST http://localhost:8080/api/assignments
+Content-Type: application/json
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof1"
+}
+
+<> 2025-02-21T230409.200.json
+
+###
+
+POST http://localhost:8080/api/assignments
+Content-Type: application/json
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof1"
+}
+
+<> 2025-02-21T230030.200.json
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T230024.200.json
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T230001.503.json
+
+###
+
+POST http://localhost:8080/api/assignments
+Content-Type: application/json
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof1"
+}
+
+<> 2025-02-21T225956.503.json
+
+###
+
+POST http://localhost:8080/api/assignments/batch
+Content-Type: application/json
+Content-Length: 5063
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof2"
+  },  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+}
+]
+
+<> 2025-02-21T225946.503.json
+
+###
+
+POST http://localhost:8080/api/assignments
+Content-Type: application/json
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof1"
+}
+
+<> 2025-02-21T225712.200.json
+
+###
+
+POST http://localhost:8080/api/assignments/batch
+Content-Type: application/json
+Content-Length: 5063
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof2"
+  },  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+}
+]
+
+<> 2025-02-21T225659.200.json
+
+###
+
+POST http://localhost:8080/api/courses/batch
+Content-Type: application/json
+Content-Length: 7400
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof2"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof2"
+  },  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+}
+]
+
+<> 2025-02-21T224617.200.json
+
+###
+
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Content-Length: 237
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+<> 2025-02-21T224351.200.json
+
+###
+
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Content-Length: 237
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+<> 2025-02-21T224320.200.json
+
+###
+
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Content-Length: 237
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+<> 2025-02-21T224249.200.json
+
+###
+
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Content-Length: 237
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+<> 2025-02-21T224206.200.json
+
+###
+
+GET http://localhost:8080/api/courses
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T224025.200.json
+
+###
+
+GET http://localhost:8080/api/teachers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T222656.200.json
+
+###
+
+GET http://localhost:8090/api/courses
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T221209.200.json
+
+###
+
+GET http://localhost:8080/api/courses
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T221156.200.json
+
+###
+
+GET http://localhost:8080/api/teachers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T221041.200.json
+
+###
+
+GET http://localhost:8085/api/teachers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T221033.200.json
+
+###
+
+GET http://localhost:8085/api/teachers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T221026.200.json
+
+###
+
+GET http://localhost:8080/api/teachers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T220409.200.json
+
+###
+
+DELETE http://localhost:8080/api/students/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/students/Roudayna
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T220324.500.json
+
+###
+
+POST http://localhost:8080/api/students
+Content-Type: application/json
+Content-Length: 49
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "Roudayna",
+  "role": "STUDENT"
+}
+
+<> 2025-02-21T220322.200.json
+
+###
+
+GET http://localhost:8080/api/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T220044.200.json
+
+###
+
+GET http://localhost:8085/api/students
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T220028.200.json
+
+###
+
+GET http://localhost:8080/api/assignments/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T204938.200.json
+
+###
+
+GET http://localhost:8080/api/assignments/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/assignments/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T204824.200.json
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T204811.200.json
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/api/assignments
+Content-Type: application/json
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof1"
+}
+
+<> 2025-02-21T201100.500.json
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T201055.200.json
+
+###
+
+POST http://localhost:8080/api/assignments
+Content-Type: application/json
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof1"
+}
+
+<> 2025-02-21T200911.503.json
+
+###
+
+POST http://localhost:8080/api/assignments
+Content-Type: application/json
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof1"
+}
+
+<> 2025-02-21T200900.503.json
+
+###
+
+POST http://localhost:8080/api/assignments
+Content-Type: application/json
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof1"
+}
+
+<> 2025-02-21T200610.200.json
+
+###
+
+POST http://localhost:8080/api/assignments
+Content-Type: application/json
+Content-Length: 152
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "marwa"
+}
+
+<> 2025-02-21T200601.200.json
+
+###
+
+POST http://localhost:8080/api/assignments/batch
+Content-Type: application/json
+Content-Length: 5063
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Math Homework",
+    "description": "Complete exercises 1 to 10 from Chapter 5",
+    "dueDate": "2025-02-20T23:59:59",
+    "teacherId": "prof2"
+  },  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof2"
+},  {
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+},{
+  "title": "Math Homework",
+  "description": "Complete exercises 1 to 10 from Chapter 5",
+  "dueDate": "2025-02-20T23:59:59",
+  "teacherId": "prof3"
+}
+]
+
+<> 2025-02-21T200504.503.json
+
+###
+
+POST http://localhost:8080/api/courses/batch
+Content-Type: application/json
+Content-Length: 7400
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof2"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof2"
+  },  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+}
+]
+
+<> 2025-02-21T195846.200.json
+
+###
+
+GET http://localhost:8080/api/assignments
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-02-21T195632.200.json
+
+###
+

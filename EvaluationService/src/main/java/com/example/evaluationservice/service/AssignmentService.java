@@ -27,9 +27,9 @@ public class AssignmentService {
         if (teacher == null) {
             throw new ResourceNotFoundException("Teacher not found with id: " + assignmentEntity.getTeacherId());
         }
-        assignmentEntity.setTeacherInstanceName(teacher.getTeacherInstanceName());
+        assignmentEntity.setTeacherInstanceName(teacher.getInstanceName());
 
-        assignmentEntity.setTeacherId(assignmentEntity.getTeacherId());
+        assignmentEntity.setTeacherId(teacher.getUsername());
         assignmentEntity.setCreatedAt(LocalDateTime.now());
 
         return assignmentRepository.save(assignmentEntity);

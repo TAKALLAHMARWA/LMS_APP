@@ -68,7 +68,7 @@ public class CourseService {
          * Communication between Course Microservice and User microservice
          * we're using the synchrone communication using a REST API
          */
-        TeacherDTO teacher = teacherClient.getTeacherById(String.valueOf(courseEntity.getTeacherId()));
+        TeacherDTO teacher = teacherClient.getTeacherById(String.valueOf(courseEntity.getTeacherId()));//blocked
         courseEntity.setTeacherInstanceName(teacher.getInstanceName());
         /**
          * End Communication
