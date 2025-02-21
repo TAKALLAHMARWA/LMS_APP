@@ -1,0 +1,12 @@
+POST http://localhost:8086/api/courses
+Content-Type: application/json
+
+{
+"title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+###
+GET http://localhost:8086/api/courses

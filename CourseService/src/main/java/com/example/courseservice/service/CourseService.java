@@ -1,37 +1,41 @@
 package com.example.courseservice.service;
+
+import com.example.courseservice.FeignClient.TeacherClient;
 import com.example.courseservice.dao.Entity.CourseEntity;
 import com.example.courseservice.dao.Repository.CourseRepository;
-import com.example.courseservice.dto.CourseDTO;
+import com.example.courseservice.dto.TeacherDTO;
 import com.example.courseservice.exception.ResourceNotFoundException;
-import com.example.courseservice.mapper.CourseMapper;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.pdf.PdfWriter; // Correct import
-import lombok.RequiredArgsConstructor;
+import com.itextpdf.text.pdf.PdfWriter;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.FileOutputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
-@RequiredArgsConstructor
 public class CourseService {
 
     private final CourseRepository courseRepository;
+    private final TeacherClient teacherClient;
+
+    public CourseService(CourseRepository courseRepository, TeacherClient teacherClient) {
+        this.courseRepository = courseRepository;
+        this.teacherClient = teacherClient;
+    }
 
     private static final String UPLOAD_DIR = "uploads/courses/";
     private static final String COURSE_NOT_FOUND_ERROR = "Course not found with id: ";
 
-    public CourseDTO createCourse(String title, String description, MultipartFile file) throws IOException {
+    public CourseEntity createCourse(String title, String description, MultipartFile file) throws IOException {
         String pdfUrl = savePdfFile(file);
 
         CourseEntity course = new CourseEntity();
@@ -40,14 +44,11 @@ public class CourseService {
         course.setPdfUrl(pdfUrl);
 
         course = courseRepository.save(course);
-        return CourseMapper.INSTANCE.toDTO(course);
+        return course;
     }
 
-    public List<CourseDTO> getAllCourses() {
-        return courseRepository.findAll()
-                .stream()
-                .map(CourseMapper.INSTANCE::toDTO)
-                .collect(Collectors.toList());
+    public List<CourseEntity> getAllCourses() {
+        return courseRepository.findAll();
     }
 
     private String savePdfFile(MultipartFile file) throws IOException {
@@ -62,19 +63,26 @@ public class CourseService {
     }
 
     // Créer un cours
-    public CourseDTO createCourse(CourseDTO courseDTO) {
-        courseDTO.setPublishedAt(LocalDateTime.now()); // Date de publication automatisée
-        CourseEntity courseEntity = CourseMapper.INSTANCE.toEntity(courseDTO); // Correction du mapper
+    public CourseEntity createCourse(CourseEntity courseEntity) {
+        /**
+         * Communication between Course Microservice and User microservice
+         * we're using the synchrone communication using a REST API
+         */
+        TeacherDTO teacher = teacherClient.getTeacherById(String.valueOf(courseEntity.getTeacherId()));
+        /**
+         * End Communication
+         */
+        courseEntity.setPublishedAt(LocalDateTime.now()); // Date de publication automatisée
         courseEntity = courseRepository.save(courseEntity);
         generatePdf(courseEntity); // Génération du PDF
-        return CourseMapper.INSTANCE.toDTO(courseEntity); // Correction du mapper
+        return courseEntity; // Correction du mapper
     }
 
     // Récupérer un cours par son ID
-    public CourseDTO getCourseById(Long courseId) {
+    public CourseEntity getCourseById(Long courseId) {
         CourseEntity courseEntity = courseRepository.findById(courseId)
                 .orElseThrow(() -> new ResourceNotFoundException(COURSE_NOT_FOUND_ERROR + courseId)); // Constante utilisée
-        return CourseMapper.INSTANCE.toDTO(courseEntity); // Correction du mapper
+        return courseEntity; // Correction du mapper
     }
 
     // Générer le PDF pour un cours

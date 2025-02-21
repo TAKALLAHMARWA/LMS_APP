@@ -1,17 +1,15 @@
-package com.example.courseservice.dto;
+package com.example.evaluationservice.dto;
 import lombok.Getter;
 import lombok.Setter;
 import java.time.LocalDateTime;
 
 @Getter
 @Setter
-public class CourseDTO {
+
+public class AssignmentDTO {
     private Long id;
     private String title;
     private String description;
-    private String pdfUrl;
-    private LocalDateTime publishedAt;
+    private LocalDateTime dueDate;
     private String teacherId;
 }
-
-
