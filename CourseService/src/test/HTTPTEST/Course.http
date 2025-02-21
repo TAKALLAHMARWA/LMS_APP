@@ -1,4 +1,4 @@
-POST http://localhost:8086/api/courses
+POST http://localhost:8080/api/courses
 Content-Type: application/json
 
 {
@@ -8,5 +8,208 @@ Content-Type: application/json
   "publishedAt": "2024-02-16T12:30:00",
   "teacherId": "marwa"
 }
+
 ###
-GET http://localhost:8086/api/courses
+#10 courses from prof1
+#10 courses from prof2
+#10 courses from prof3
+
+POST http://localhost:8080/api/courses/batch
+Content-Type: application/json
+
+[
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof1"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof2"
+  },
+  {
+    "title": "Introduction to Java 10",
+    "description": "A beginner-friendly course on Java programming.",
+    "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+    "publishedAt": "2024-02-16T12:30:00",
+    "teacherId": "prof2"
+  },  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof2"
+},  {
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+},{
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "prof3"
+}
+]
+###
+GET http://localhost:8080/api/courses
