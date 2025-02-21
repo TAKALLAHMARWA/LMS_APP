@@ -1,8 +1,22 @@
 POST http://localhost:8080/api/courses
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1hcndhIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNTE2MjM5MDIyfQ.PqoNgW7LsuFZTNgEU1Af5eUMC6z3wKzYc07buCr2CMY
 
 {
-"title": "Introduction to Java 10",
+  "title": "Introduction to Java 10",
+  "description": "A beginner-friendly course on Java programming.",
+  "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
+  "publishedAt": "2024-02-16T12:30:00",
+  "teacherId": "marwa"
+}
+
+###
+POST http://localhost:8080/api/courses
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1hcndhIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNTE2MjM5MDIyfQ.PqoNgW7LsuFZTNgEU1Af5eUMC6z3wKzYc07buCr2CMY
+
+{
+  "title": "Introduction to Java 10",
   "description": "A beginner-friendly course on Java programming.",
   "pdfUrl": "https://example.com/course-materials/java-intro.pdf",
   "publishedAt": "2024-02-16T12:30:00",

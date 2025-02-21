@@ -9,5 +9,5 @@ public class TeacherDTO{
     private Long id;
     private String username;
     private Role role;
-    private String teacherInstanceName;
+    private String instanceName;
 }
