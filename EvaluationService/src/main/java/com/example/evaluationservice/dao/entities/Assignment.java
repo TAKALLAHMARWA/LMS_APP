@@ -21,6 +21,8 @@ public class Assignment {
 
     @Column(name = "teacher_id", nullable = false)
     private String teacherId;
+    private String teacherInstanceName;
+
 
 
     @Column(nullable = false, updatable = false)

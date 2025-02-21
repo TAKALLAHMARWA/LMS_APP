@@ -1,7 +1,7 @@
-GET http://localhost:8085/api/students/Roudayna
+GET http://localhost:8080/api/students/Roudayna
 
 ###
-POST http://localhost:8085/api/students
+POST http://localhost:8080/api/students
 Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8085/api/students
+GET http://localhost:8080/api/students
 
 ###
-DELETE http://localhost:8085/api/students/3
+DELETE http://localhost:8080/api/students/3
